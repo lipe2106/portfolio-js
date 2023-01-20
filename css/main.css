@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Passions+Conflict&display=swap');
+
+body {
+    width: 100%;
+    margin: 0%;
+    background-color: #E5E5E5;
+}
+
+.header-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    padding-top: 2%;
+}
+
+header {
+    background-color: #E5E5E5;
+    height: 250px;
+}
+
+.img-container {
+    display: block;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+header img {
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.42);
+    width: 100px;
+    height: 100px;
+}
+
+#h1-container {
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    width: 61%;
+}
+
+h1 {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 4.5em;
+    font-weight: lighter;
+    color: gray;
+    margin: 0;
+}
+
+#h1-container h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: gray;
+    margin-top: 0;
+}
+
+.page-container {
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    margin-top: 0%;
+}
+
+.content-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+main {
+    width: 100%;
+}
+
+#project-container, 
+#raw-img,
+#hacienda-img,
+#intranet-img,
+#blogit-img,
+#fardtjanst-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.project-card {
+  background-color: white;
+  width: 94%;
+  max-width: 180px;
+  margin: 3%;
+  text-align: center;
+  border: 0.5px solid lightgray;
+}
+
+.undefined {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 180px;
+  height: 200px;
+}
+
+h2, h3 {
+  font-family: 'Cinzel', serif;
+  font-weight: lighter;
+  color: gray;
+  font-size: 1em;
+}
+
+.description {
+  overflow: hidden;
+  padding: 3%;
+  height: 75px;
+}
+
+p, li, blockquote, table {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  color: rgb(68, 68, 68);
+  font-size: 0.8em;
+}
+
+#raw-img p,
+#hacienda-img p,
+#blogit-img p,
+#intranet-img p,
+#fardtjanst-img p {
+  text-align: center;
+  margin-top: 0;
+}
+
+#raw-info img,
+#hacienda-info img,
+#intranet-info img,
+#blogit-info img,
+#fardtjanst-info img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: -0.4%;
+  margin-right: 0.5%;
+}
+
+#user-info p, 
+#raw-info p,
+#hacienda-info p,
+#intranet-info p,
+#blogit-info p,
+#fardtjanst-info p {
+  line-height: 1.4em;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: circle;
+  width: 95%;
+  margin: auto;
+}
+
+li {
+  display: inline;
+}
+
+.link {
+  width: 15px;
+  height: 15px;
+  margin-right: 10%;
+}
+
+#user-info, 
+#raw-info,
+#hacienda-info,
+#intranet-info,
+#blogit-info,
+#fardtjanst-info {
+  background-color: white;
+  padding: 2% 3%;
+  border: 0.5px solid lightgray;
+}
+
+section {
+  margin-bottom: 5%;
+}
+
+blockquote {
+  background-color: lightgray;
+  padding: 1%;
+  color: rgb(64, 64, 64);
+  text-align: center;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0.5px solid lightgray;
+    border-bottom: 0.7px solid lightgray;
+    table-layout: fixed;
+}
+
+thead {
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: left;
+}
+
+th {
+    padding: 1% 1%;
+    font-weight: 200;
+}
+
+td {
+    border-bottom: 0.5px solid lightgray;
+    padding: 0.5% 1%;
+}
+
+.one {
+    width: 40%;
+    padding-left: 1%;
+}
+
+.two {
+    width: 45%;
+    padding-left: 1%;
+}
+
+.three {
+    width: 15%;
+    padding-left: 1%;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 0.2%;
+    width: 50%;
+    margin: auto;
+    border-top: 0.5px solid lightgray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    color: gray;
+    font-size: 0.8em;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+/* Media queries */
+
+@media (max-width: 950px) {
+
+    .content-container {
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+        max-width: 180px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 850px)
+{
+    footer {
+        width: 80%;
+    }
+} 
+
+@media (max-width: 768px)
+{
+    .h1-container {
+        top: 40px;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    .img-container {
+        margin-top: 30px;
+    }
+
+    header {
+        height: 200px;
+    }
+} 
+
+@media (max-width: 600px) {
+  #project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .project-cards {
+    width: 100%;
+  }
+
+  img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px)
+{
+    .h1-container {
+        top: 25px;
+        left: 100px;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    .img-container {
+        width: 70px;
+        height: 70px;
+        margin-top: 15px;
+    }
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+} 
+
