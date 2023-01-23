@@ -46,31 +46,31 @@ function showProjectById(id) {
             <blockquote><img src="img/link.png" alt="Länkikon" class="link" />Detta projekt är tyvärr inte publicerat</blockquote>`
             
             intranetImg.innerHTML += 
-            `<div>
+            `<div class="img-card">
                 <a href="img/${item.image1}">
                     <img src="img/${item.image1}" alt="Projektbild" />
                     <p>Startsida desktop</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image2}">
                     <img src="img/${item.image2}" alt="Projektbild" />
                     <p>Undersida för lagersaldo</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image3}">
                     <img src="img/${item.image3}" alt="Projektbild" />
                     <p>Sökfunktion</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image4}">
                     <img src="img/${item.image4}" alt="Projektbild" />
                     <p>Hantering av kategorier</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image5}">
                     <img src="img/${item.image5}" alt="Projektbild" />
                     <p>Produktsida</p>

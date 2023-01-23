@@ -46,31 +46,31 @@ function showProjectById(id) {
             <blockquote><a href="${item.link}"><img src="img/link.png" alt="Länkikon" class="link" />Länk till publicerat projekt</blockquote>`
             
             fardtjanstImg.innerHTML += 
-            `<div>
+            `<div class="img-card">
                 <a href="img/${item.image1}">
                     <img src="img/${item.image1}" alt="Projektbild" />
                     <p>Startsida desktop</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image2}">
                     <img src="img/${item.image2}" alt="Projektbild" />
                     <p>Startsida mobil</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image3}">
                     <img src="img/${item.image3}" alt="Projektbild" />
                     <p>Bokningssida</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image4}">
                     <img src="img/${item.image4}" alt="Projektbild" />
                     <p>Avbokningssida</p>
                 </a>
             </div>
-            <div>
+            <div class="img-card">
                 <a href="img/${item.image5}">
                     <img src="img/${item.image5}" alt="Projektbild" />
                     <p>Tillgänglighetsredogörelse</p>

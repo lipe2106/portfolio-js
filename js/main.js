@@ -36,7 +36,7 @@ function showUserInfo(id) {
 
             userInfo.innerHTML += 
             `<p>${item.description}</p>
-            <blockquote>${item.quote}</blockquote>`
+            <blockquote>"${item.quote}"</blockquote>`
         });
     })
 }
@@ -49,7 +49,7 @@ function showProjects() {
         data.forEach(item => {
             projectContainer.innerHTML += 
             `<div class="project-card">
-                <a href="${item.path}.html">
+                <a href="${item.path}.html" title="Klicka för mer info">
                     <img src="img/${item.image1}" alt="Projektbild" />
                     <h3>${item.name}</h3>
                     <p class="description">${item.description}</p>
