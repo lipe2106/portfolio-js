@@ -36,7 +36,7 @@ function showUserInfo(id) {
 
             userInfo.innerHTML += 
             `<p>${item.description}</p>
-            <blockquote>"${item.quote}"</blockquote>`
+            <blockquote>" ${item.quote} "</blockquote>`
         });
     })
 }

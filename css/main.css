@@ -186,6 +186,7 @@ blockquote {
   padding: 1%;
   color: rgb(64, 64, 64);
   text-align: center;
+  font-size: 0.8em;
 }
 
 .table-container {
